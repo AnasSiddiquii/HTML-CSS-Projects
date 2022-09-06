@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Facebook</title>
+
+     <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+     <link rel="manifest" href="icon/site.webmanifest">
+     <meta name="msapplication-TileColor" content="#da532c">
+     <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+     
+</body>
+</html>
+<style>
+
+
+
+*{margin:0; padding:0;}
+
+.container {width: 100%; margin: 0 auto}
+
+.header {padding: 10px 0;width: 100%; height: 50px ; background: #3B5998;}
+
+
+
+/* Head */
+
+
+/* Logo */
+
+.logo {float: left; margin-left:100px; margin-top: 5px; width: 200px; color: white;}
+
+
+/* Login */
+
+.login-section {float: right; margin-right: 100px;}
+
+.head {color: white; text-align: left; font-size: xx-small;}
+
+.input1 {margin-right: 10px; font-size: xx-small; border: solid 1px black;}
+
+.keep-me-login {color: #abbadd; text-align: left; font-size: xx-small;}
+
+.forgotten-account { text-align: left; font-size: xx-small; cursor: pointer;}
+
+.forgotten-account a{ color: #abbadd;}
+
+.login-button {background: #5371b4; color: white; padding: 3px; border: solid 1px gray; font-size: xx-small; cursor: pointer;}
+
+.login-button a{text-decoration: none; color: #ffffff;}
+
+
+
+/* Banner */
+
+.banner {width: 100%; height: 590px; border-radius: 5px; background: linear-gradient(to bottom, #ffffff 0%, #ffffff 5%, #e3e5f1 45%, #e3e5f1 100%);}
+
+
+/* Box 1 CSS */
+
+.box1 {float: left; width: 593px; height: 590px;}
+  
+.box1 ul li{list-style: none;}
+ 
+.heading-text {color: black; margin: 40px 50px 1px 100px; width: 440px; font-size: large;}
+
+.box1 img{width: 100%; margin: 40px 50px 1px 100px; width: 440px; height: 200px; margin-top: 10px;}
+
+
+/* Box 2 CSS */
+
+.box2 {float: right; width: 400px; height: 590px;}
+ 
+.box2 ul li{ width: 430px; text-align: left;list-style:none;}
+
+.box2 ul li a{text-decoration: none;}
+ 
+.heading {width: 430px;  margin-top: 20px; margin-bottom: 10px;} 
+ 
+.input2 {width: 160px; height: 35px; border-radius: 5px; margin-top: 20px; padding-left: 5px;  border: solid 1px gray;}
+
+.input3 {width: 325px; height: 35px; border-radius: 5px; margin-top: 20px; padding-left: 5px; border: solid 1px gray;}
+
+.birthday {width: 60px; height: 35px; margin-top: 10px; padding-left: 5px;}
+
+.gender {margin: 20px 5px 0px 10px;}
+
+.ending-text {font-size: small;}
+
+.policy {color: #5371b4; display: inline; cursor: pointer;}
+
+.signup{float: left; width: 155px; height: 35px; margin-top: 20px; background: green; color: white; font-size: large; border-radius: 5px; padding: 5px; border: solid 1px gray; cursor: pointer;}
+ 
+.signup a{color: aliceblue;}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+  <div class="container">
+
+
+
+     <div class="header">
+      
+      <!---Head --->
+
+      
+         <!-- Logo -->
+        
+        <div class="logo">
+
+          <label>
+          <h1><b>facebook</b><h1>
+          </label>
+
+        </div>       
+        
+        
+        <!-- Login -->
+            
+        <table class="login-section">
+            
+          <tr> 
+  
+          <label>
+             <th class="head">Email id</th>
+          </label>
+  
+          <label>
+             <th class="head">Password</th>
+          </label>
+          
+          </tr>
+
+          
+          <tr> 
+      
+             <th><input type="text" class="input1"></th>
+
+             <th><input type="text" class="input1"></th>
+
+             <th>
+                  <a href="login.html">
+                  <input type= "submit" class="login-button" value="Log In">
+                  </a>
+             </th>
+
+          </tr>
+           
+          <tr> 
+          
+             <th class="keep-me-login">
+               <label for="save">
+               <input type="checkbox" name="save" id="save">keep me login</input>
+               </label>
+             </th>
+
+             <th class="forgotten-account">
+               <a href="forgotten.html">Forgotten account?<a>
+             </th>
+
+           </tr>
+      
+        </table>
+
+     </div>
+
+
+
+    <div class="banner">         
+
+      <!-- Banner -->
+
+      
+       <!-- Box 1 HTML -->
+
+       <div class="box1">
+      
+          <ul>
+      
+            <li class="heading-text">
+               <label>Facebook helps you connect and share with the<br>people in your life.</label>
+            </li>
+                
+
+            <li>
+                 <img src="Image.jpg">
+            </li>
+
+          </ul>
+   
+       </div>
+  
+       
+       <!-- Box 2 HTML -->
+       
+       <div class="box2">
+
+          <ul>
+
+               <li>
+                   <label><h1 class="heading"><b> Create an account </b></h1></label>
+               </li>
+
+               <li>
+                   <lable><h4  class="heading"> It`s quick and easy. </h4></lable>
+               </li>
+
+               <li>
+                    <input type="text" placeholder="First name" class="input2">
+                    <input type="text" placeholder="Surname" class="input2">
+               </li>
+
+               <li>
+                    <input type="text" placeholder="Mobile number or email address" class="input3">
+               </li>
+               
+               <li>
+                    <input type="password" placeholder="New password" class="input3">
+               </li> <br>
+
+               <li>
+                    <label> Birthday </label>
+               </li>
+
+               <li>
+                 
+                    <Select class="birthday">
+                         <option>1</option>  <option>2</option>  <option selected>3</option> 
+                         <option>4</option>  <option>5</option>  <option>6</option> 
+                         <option>7</option>  <option>8</option>  <option>9</option> 
+                         <option>10</option> <option>11</option> <option>12</option> 
+                         <option>13</option> <option>14</option> <option>15</option> 
+                         <option>16</option> <option>17</option> <option>18</option> 
+                         <option>19</option> <option>20</option> <option>21</option> 
+                         <option>22</option> <option>23</option> <option>24</option> 
+                         <option>25</option> <option>26</option> <option>27</option> 
+                         <option>28</option> <option>29</option> <option>30</option>
+                    </Select>
+
+                    <Select class="birthday">
+                         <option>Jan</option> <option>Feb</option> <option>Mar</option> 
+                         <option>Apr</option> <option>May</option> <option selected>Jun</option> 
+                         <option>Jul</option> <option>Aug</option> <option>Sep</option> 
+                         <option>Oct</option> <option>Nov</option> <option>Dec</option> 
+                         
+                    </Select>
+
+                    <Select class="birthday">
+                         <option>1971</option> <option>1972</option> <option>1973</option> 
+                         <option>1974</option> <option>1975</option> <option>1976</option> 
+                         <option>1977</option> <option>1978</option> <option>1979</option> 
+                         <option>1980</option> <option>1981</option> <option>1982</option> 
+                         <option>1983</option> <option>1984</option> <option>1985</option> 
+                         <option>1986</option> <option>1987</option> <option>1988</option> 
+                         <option>1989</option> <option>1990</option> <option>1991</option> 
+                         <option>1992</option> <option>1993</option> <option>1994</option> 
+                         <option selected>1995</option> <option>1996</option> <option>1997</option> 
+                         <option>1998</option> <option>1999</option> <option>2000</option>
+                         <option>2001</option> <option>2002</option> <option>2003</option> 
+                         <option>2004</option> <option>2005</option> <option>2006</option> 
+                         <option>2007</option> <option>2008</option> <option>2009</option> 
+                         <option>2010</option> <option>2011</option> <option>2012</option> 
+                         <option>2013</option> <option>2014</option> <option>2015</option> 
+                         <option>2016</option> <option>2017</option> <option>2018</option> 
+                         <option>2019</option> <option>2020</option> <option>2021</option> 
+                         <option>2022</option> <option>2023</option> <option>2024</option> 
+                         <option>2025</option> <option>2026</option> <option>2027</option> 
+                         <option>2028</option> <option>2029</option> <option>2030</option>
+                    </Select>
+           
+               </li> <br>
+
+               <li>
+                    <label>Gender</label>
+               </li>
+
+               <li>
+             
+                    <label for="female">
+                    <input type="radio" class="gender" name="gender" id="female">Female
+                    </label>
+                    
+                    <label for="male">
+                    <input type="radio" class="gender" name="gender" id="male">Male
+                    </label>
+
+                    <label for="custom">
+                    <input type="radio" class="gender" name="gender" id="custom">Custom
+                    </label>
+            
+               </li><br>
+
+               <li>
+                
+                    <label class="ending-text">
+
+                         By clicking Sign UP, you agree to our <a href="terms.html"><p class="policy">Term</p></a>, <a href="data.html"><p class="policy">Data Policy</p></a> and<br>
+
+                         <a href="cookie.html"><p class="policy">Cookie Policy</p></a>. You may receive SMS notifications from us and<br>
+
+                         can opt out at any time.
+                    
+                    </label>
+            
+               </li>
+
+               <li>
+                    <a  href="signup.html">
+                    <input type="submit" class="signup" value="Sign Up">
+                    </a>
+               </li>
+           
+          </ul>
+     
+       </div>
+       
+     </div>
+
+  </div>
+
+</body>
+
+ </html>
